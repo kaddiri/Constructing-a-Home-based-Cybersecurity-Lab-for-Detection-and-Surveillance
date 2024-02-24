@@ -33,7 +33,7 @@ You can download VirtualBox at -
 [Virtualbox Download](https://www.virtualbox.org/wiki/Downloads)
 
 # Installing and Configuring the Firewall - pfsense
-pfsense will act as the edge of our Homelab virtual network and will be only accessible from the Parrot Machine.
+pfsense will act as the edge of our Homelab virtual network and will be only accessible from the Kali Machine.
 
 pfsense community edition can be downloaded from - [pfsense community edition ISO](https://www.pfsense.org/download/)
 
@@ -101,14 +101,14 @@ For, 'Do you want to revert to HTTP as the webConfigurator protocol? (y/n)' - n
 
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/pfsense/pfsense_10.png)
 
-16. With this we have configured the pfsense VM. Rest of the configuration will be done using the Parrot Machine through the WebConfigurator.
+16. With this we have configured the pfsense VM. Rest of the configuration will be done using the Kali Machine through the WebConfigurator.
 
 # Installing and Configuring the IDS - Security Onion
 Security Onion is an open-source IDS, Security Monitoring and Log Management solution.
 
 You can download Security Onion from -
 
-Security Onion Download
+[Security Onion Download](https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md)
 
 Follow these steps to install and configure Security Onion for our network -
 
