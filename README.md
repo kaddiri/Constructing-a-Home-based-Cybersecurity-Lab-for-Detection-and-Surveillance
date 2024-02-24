@@ -115,38 +115,31 @@ Follow these steps to install and configure Security Onion for our network -
 1. Open VMWare Workstation and select Typical Installation -> Next
 
 2. Click on installer disc image file and browse & select the Security Onion ISO file -> Next
-
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_1.png)
 
 3. Choose Linux in Guest Operating System and CentOS 7 64-bit -> Next
-
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_2.png)
 
 4. Put in SecurityOnion as the VM name -> Next
 
 5. Specify disk size (minimum 200GB) make sure to store it as a single file -> Next
-
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_3.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_4.png)
 
 6. Click 'Customize Hardware' -> Increase Processor to 2 -> Change memory to 4-32GB (I recommend atleast 8 GB)-> Add 2 Network Adapters and assign them Vmnet4 & Vmnet5
-
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_4.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_5.png)
 
 7. Click Finish and Bootup the 'SecurityOnion' VM -> Click Enter on the 'Installing Security Onion in basic graphic mode'
 
 8. After loading, enter 'yes' when you get this prompt.
-
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_5.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_6.png)
 
 9. Set a username and password for the administrator account -> After Security Onion reboots enter those credentials -> Select Yes
-
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_6.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_7.png)
 
 10. Select 'Run the standard Security Onion installation'
 
 11. Select the EVAL option
-
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_7.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_8.png)
 
 12. Type 'Agree'
 
@@ -154,7 +147,7 @@ Follow these steps to install and configure Security Onion for our network -
 
 14. Use spacebar to select ens33 as the management interface -> Press Enter
 
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_8.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_9.png)
 
 15. Select DHCP to set up the the management interface
 
@@ -162,7 +155,7 @@ Follow these steps to install and configure Security Onion for our network -
 
 17. Select 'Direct' -> After preflight checks, select ens35 as the Monitor Interface
 
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_9.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_10.png)
 
 18. Select 'Automatic' for the OS patch schedule -> Accept all default values for Home Network CIDR ranges, Docker IP Range,
 
@@ -172,13 +165,13 @@ Follow these steps to install and configure Security Onion for our network -
 
 21. Enter '192.168.3.10' when asked for an IP address to access Web Interface
 
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_10.png)
-
-22. Take a screenshot of the final settings, Especially the Web Access IP Address
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_11.png)
 
-23. You will get this prompt at the end of installation of Security Onion.
+22. Take a screenshot of the final settings, Especially the Web Access IP Address
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_12.png)
+
+23. You will get this prompt at the end of installation of Security Onion.
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_13.png)
 
 24. Next we will access the Security Onion Interface from our VLAN Network which normally the SOC will do. Any machine like Ubuntu or any other flavour in the network will work and you can set it up on your own. I am using Kali as I have it already installed.
 
@@ -188,11 +181,11 @@ Follow these steps to install and configure Security Onion for our network -
 
 Enter your password -> Type 'a' and wait for the process to complete.
 
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_13.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_14.png)
 
 This will create a firewall rule on Security Onion for the Kali Linux machine that will allow you access to the Web Interface.
 
 26. Go to the Security Onion web interface address on the Kali Machine. You can login in it using the Email ID and Password you provided during the setup.
-![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_14.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_15.png)
 
 27. Your Security Onion is configured.
