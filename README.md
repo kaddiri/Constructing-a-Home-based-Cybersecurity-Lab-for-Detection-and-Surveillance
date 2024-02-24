@@ -95,9 +95,9 @@ For, 'Do you want to revert to HTTP as the webConfigurator protocol? (y/n)' - n
 13. The Configuration for OPT2 Interace is -
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/pfsense/pfsense_9.png)
 
-15. The OPT3 Interface should be left without an IP as it is going to have the span port with traffic that the IDS (Security Onion) is going to be monitoring.
+14. The OPT3 Interface should be left without an IP as it is going to have the span port with traffic that the IDS (Security Onion) is going to be monitoring.
 
-16. The Configuration for OPT3 Interface is -
+15. The Configuration for OPT3 Interface is -
 
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/pfsense/pfsense_10.png)
 
@@ -117,7 +117,9 @@ Follow these steps to install and configure Security Onion for our network -
 2. Click on installer disc image file and browse & select the Security Onion ISO file -> Next
 
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_1.png)
+
 3. Choose Linux in Guest Operating System and CentOS 7 64-bit -> Next
+
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_2.png)
 
 4. Put in SecurityOnion as the VM name -> Next
@@ -127,6 +129,7 @@ Follow these steps to install and configure Security Onion for our network -
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_3.png)
 
 6. Click 'Customize Hardware' -> Increase Processor to 2 -> Change memory to 4-32GB (I recommend atleast 8 GB)-> Add 2 Network Adapters and assign them Vmnet4 & Vmnet5
+
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_4.png)
 
 7. Click Finish and Bootup the 'SecurityOnion' VM -> Click Enter on the 'Installing Security Onion in basic graphic mode'
@@ -136,6 +139,7 @@ Follow these steps to install and configure Security Onion for our network -
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_5.png)
 
 9. Set a username and password for the administrator account -> After Security Onion reboots enter those credentials -> Select Yes
+
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_6.png)
 
 10. Select 'Run the standard Security Onion installation'
