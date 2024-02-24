@@ -140,6 +140,7 @@ Follow these steps to install and configure Security Onion for our network -
 10. Select 'Run the standard Security Onion installation'
 
 11. Select the EVAL option
+
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_8.png)
 
 12. Type 'Agree'
