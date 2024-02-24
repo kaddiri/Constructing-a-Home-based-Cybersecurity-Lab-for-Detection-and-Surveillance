@@ -179,7 +179,7 @@ Follow these steps to install and configure Security Onion for our network -
 
 25. After the VM is installed you can get the IP Address of the machine and add it to the Security Onion instance by running the command
 
-# sudo so-allow
+`sudo so-allow`
 
 Enter your password -> Type 'a' and wait for the process to complete.
 
