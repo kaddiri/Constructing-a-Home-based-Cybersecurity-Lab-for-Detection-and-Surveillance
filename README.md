@@ -44,7 +44,7 @@ You can follow these steps to install & configure pfsense -
 2. Browse the pfsense CE ISO file and select Next.
 (You might need to extract the ISO file from your pfsense download as it is usually zipped.)
 
-[pfsense New VM](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/pfsense/pfsense_1.png)
+![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/pfsense/pfsense_1.png)
 
 3. Change your VM name to "pfsense" & click Next.
 
