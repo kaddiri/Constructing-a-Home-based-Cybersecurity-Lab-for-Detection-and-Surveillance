@@ -26,16 +26,16 @@ I'll be using VMWare Workstation, being a student I get a license for it for fre
 
 You can download VMWare Workstation at -
 
-[VMWare Workstation Download] (https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+[VMWare Workstation Download](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
 
 You can download VirtualBox at -
 
-[Virtualbox Download] (https://www.virtualbox.org/wiki/Downloads)
+[Virtualbox Download](https://www.virtualbox.org/wiki/Downloads)
 
 # Installing and Configuring the Firewall - pfsense
 pfsense will act as the edge of our Homelab virtual network and will be only accessible from the Parrot Machine.
 
-pfsense community edition can be downloaded from - [pfsense community edition ISO] (https://www.pfsense.org/download/)
+pfsense community edition can be downloaded from - [pfsense community edition ISO](https://www.pfsense.org/download/)
 
 You can follow these steps to install & configure pfsense -
 
