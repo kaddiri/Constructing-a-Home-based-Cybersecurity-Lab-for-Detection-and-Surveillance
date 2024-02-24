@@ -191,3 +191,13 @@ This will create a firewall rule on Security Onion for the Kali Linux machine th
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/img/SecOnion/so_15.png)
 
 27. Your Security Onion is configured.
+
+# Installing Splunk on a Ubuntu Server
+Splunk is one of the most widely used SIEMs in the Cybersecurity industry. Splunk essentially aggregates logs and datasets from various data sources and correlates all that information for easy searching, parsing & indexing.
+
+For configuring Splunk, I recommend watching this video [Splunk](https://www.youtube.com/watch?v=ia9E4x8iVDk&ab_channel=CYBERWOX)
+
+# Installing Universal Forwarder on Windows Server
+In order to log the activities on endpoints, Splunk uses a mechanism called the universal forwarder. The universal forward can be installed on windows, *nix & mac agents to forward logs to your Splunk instance.
+
+Check this link for the configuration [Universal Forwarder](https://www.youtube.com/watch?v=yP_PFRy-pdA&ab_channel=CYBERWOX)
