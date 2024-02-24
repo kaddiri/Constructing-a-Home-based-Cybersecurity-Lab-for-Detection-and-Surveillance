@@ -13,7 +13,7 @@ A Homelab is an environment meant to simulate enterprise components and configur
 + SIEM - Splunk
 + Hypervisor - VMWare/Virtualbox
 + Domain Controller - Windows Active Directory
-+ Vulnerable Machines - Ubuntu, Windows, DVWA, Vulnhub machines
++ Vulnerable Machines - Ubuntu, Windows, DVWA, VulnHub machines
 
 # Network Design
 ![](https://github.com/kaddiri/Constructing-a-Home-based-Cybersecurity-Lab-for-Detection-and-Surveillance/blob/main/GIF.gif)
